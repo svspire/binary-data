@@ -1,7 +1,7 @@
 (in-package :cl-user)
 
 (defpackage :binary-data
-  (:use :cl)
+  (:use :cl #+CCL :ccl)
   (:nicknames "BD")
   (:export :define-binary-class
            :define-tagged-binary-class

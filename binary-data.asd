@@ -1,6 +1,6 @@
 ;;;; -*- Mode: Lisp; Syntax: ANSI-Common-Lisp; Base: 10 -*-
 
-(defsystem :binary-data
+(asdf:defsystem :binary-data
   :name "binary-data"
   :author "Peter Seibel <peter@gigamonkeys.com>"
   :version "1.0"
@@ -12,5 +12,6 @@
                (:file "macro-utilities")
                (:file "binary-data")
                (:file "pathnames") ; optional for running example
-               (:file "id3v2"))) ; optional for running example
+               ;(:file "id3v2") ; in id3 system
+               ))
         
